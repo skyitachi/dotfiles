@@ -1,0 +1,17 @@
+EditorConfig.EditorConfig
+PeterJausovec.vscode-docker
+TwentyChung.jsx
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+donjayamanne.githistory
+eg2.tslint
+eg2.vscode-npm-script
+flowtype.flow-for-vscode
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+gerane.Theme-Solarized-dark
+michelemelluso.code-beautifier
+ms-vscode.cpptools
+vscodevim.vim
+xyz.local-history
