@@ -2,6 +2,7 @@ set shell=/bin/sh
 " Basic settings {{{
 set nocompatible
 
+set guifont=Fira\ Code:h14
 let mapleader = ","
 let localleader = "\\"
 
@@ -319,17 +320,16 @@ let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
 let g:netrw_altv = 1
 
 if &t_Co >= 256
-	" set background=dark
-	" colorscheme solarized
+" set background=dark
+" colorscheme solarized
 
-	" highlight clear SignColumn
+" highlight clear SignColumn
 
-	let g:molokai_original = 1
-	let g:rehash256 = 1
+ let g:molokai_original = 1
+ let g:rehash256 = 1
+ set cursorline
 
-	set cursorline
-
-	colorscheme molokai
+ colorscheme molokai
 endif
 
 let g:load_doxygen_syntax = 1
@@ -353,10 +353,10 @@ if has('nvim')
 	nnoremap <M-h> :tabp<cr>
 	nnoremap <M-l> :tabn<cr>
 else
-	" alt + h
-	nnoremap h :tabp<cr>
-	" alt + l
-	nnoremap <Esc>l :tabn<cr>
+	" g + h
+	nnoremap gh :tabp<cr>
+	" g + t
+	nnoremap gt :tabn<cr>
 endif
 
 
